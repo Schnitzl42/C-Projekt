@@ -1,0 +1,3 @@
+http://www.pcwelt.de/rss/newsfeed-8122300.xml
+http://derstandard.at/?page=rss&ressort=web
+http://derstandard.at/?page=rss&ressort=wissenschaft
