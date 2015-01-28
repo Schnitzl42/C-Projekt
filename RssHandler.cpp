@@ -7,6 +7,7 @@
 
 using namespace std;
 
+//read file with rss feed addreses
 RssHandler::RssHandler(string filename){
   shared_ptr<ifstream> filep;
   ifstream file;

@@ -18,11 +18,8 @@ main(){
   string kw;
   getline(cin, kw);
 
-  const int t = 3;
-  const int t2 = t+1;
-  const int * const p = &t;
   auto as = SearchEngine::filterFor(handler, kw);
-  cout << as.size() << endl;
+  //cout << as.size() << endl;
 
   list<Article> list;
   for(auto iter = as.begin(); iter != as.end(); iter++){
