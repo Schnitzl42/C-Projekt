@@ -21,7 +21,7 @@ vector<string> SearchEngine::parseKeywords(const string& keywords){
 
 set<Article> SearchEngine::filterFor(RssHandler handler, string keywords){
   vector<string> kws = SearchEngine::parseKeywords(keywords);
-  //cout << kws[0] << endl;
+  cout << "Listing for:" << kws[0] << endl;
 
    set<Article> results;
     //cout << handler.getFeeds().size() << endl;

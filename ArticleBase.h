@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class ArticleBase{
+class ArticleBase {
   protected:
     string title;
     string description;

@@ -14,6 +14,7 @@ main(){
   cout << "The ultimate RSS Crawler! (Version 0.1)" << endl;
   RssHandler handler("rss_source.txt");
   //SearchEngine engine();
+
   cout << "Enter filter strings (seperated by space): ";
   string kw;
   getline(cin, kw);
